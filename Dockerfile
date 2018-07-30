@@ -9,4 +9,3 @@ RUN wget --header "Cookie: oraclelicense=accept-securebackup-cookie" "http://dow
 RUN unzip jce_policy-8.zip
 RUN mv -f UnlimitedJCEPolicyJDK8/local_policy.jar /usr/lib/jvm/default-jvm/jre/lib/security/
 RUN mv -f UnlimitedJCEPolicyJDK8/US_export_policy.jar /usr/lib/jvm/default-jvm/jre/lib/security/
-
